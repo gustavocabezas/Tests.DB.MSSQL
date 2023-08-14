@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[UserRoles]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[UserId] INT NOT NULL,
+	[RoleId] INT NOT NULL,
+	[Active] BIT DEFAULT 1,
+	[DateCreated] DATETIME NOT NULL DEFAULT GETDATE(),
+	[DateUpdated] DATETIME NULL,
+	[CreatedBy] INT NOT NULL,
+	[UpdatedBy] INT NULL
+)

@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Orders]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[UserId] INT NOT NULL,
+	[OrderTypeId] INT NOT NULL,
+	[PaymentTypeId] INT NOT NULL,
+	[OrderStatusId] INT NOT NULL DEFAULT 1,
+	[OrderDate] DATETIME NOT NULL,
+	[DateCreated] DATETIME NOT NULL DEFAULT GETDATE(),
+	[DateUpdated] DATETIME NULL,
+	[CreatedBy] INT NOT NULL,
+	[UpdatedBy] INT NULL
+)

@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Profiles]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(32) NOT NULL,
+	[Description] NVARCHAR(256) NOT NULL,
+	[DateCreated] DATETIME NOT NULL DEFAULT GETDATE(),
+	[DateUpdated] DATETIME NULL,
+	[CreatedBy] INT NOT NULL,
+	[UpdatedBy] INT NULL
+)

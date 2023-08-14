@@ -36,7 +36,7 @@ $RECYCLE.BIN/
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
-# SQL Server files
+# SQL Server files that you typically wouldn't want to check in
 *.mdf
 *.ldf
 *.bak
@@ -51,48 +51,6 @@ ScaffoldingReadMe.txt
 # Node Modules
 node_modules/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Logs and databases
-*.log
-*.sql
-*.sqlite
-
-# Uncomment if you have tasks that create these kinds of files
-#*.dll
-#*.exe
-
 # Folders to ignore
 [Bb]in/
 [Oo]bj/
@@ -101,14 +59,6 @@ node_modules/
 [Pp]ackages/
 [TestR]esult/
 .vs/
-
-# Uncomment if you don't want to check in your web deploy settings
-#*.pubxml
-*.pubxml.user
-
-# Microsoft Azure Build Output
-csx/
-*.build.csdef
 
 # Windows image file caches
 Thumbs.db
@@ -119,12 +69,6 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-# SQL Server files
-*.mdf
-*.ldf
-*.bak
-*.trn
 
 # TDS project files
 *.tds
@@ -146,13 +90,6 @@ $RECYCLE.BIN/
 # Rider
 .idea/
 
-# User-specific
-*.rsuser
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
 # MacOS
 .DS_Store
 .AppleDouble
@@ -167,11 +104,3 @@ ehthumbs.db
 
 # Icon must end with two \r
 Icon
-
-
-# Files created by JetBrains Rider
-.idea/
-*.sln.iml
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt

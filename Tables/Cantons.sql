@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Cantons]
+(
+	[Id] INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	[ProvinceId] INT NOT NULL,
+	[Name] NVARCHAR(128) NOT NULL,
+	[Active] BIT NOT NULL DEFAULT 1,
+	[DateCreated] DATETIME NULL DEFAULT GETDATE(),
+	[DateUpdated] DATETIME NULL,
+	[UpdatedBy] INT NULL
+)
